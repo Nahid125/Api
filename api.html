@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Convertor</title>
+    <link rel="icon" href="logo.jpg">
+    <link rel="stylesheet" href="api.css"></link>
+    
+
+</head>
+<body>
+    <!-- USELESS -->
+    <div class="container1">
+        <nav id="navbar">
+            <h1>bank</h1> 
+            <ul>
+               <li class="active"><a href="#1"><b>БАНК</b></a></li>
+               <li><a href="#2">БИЗНЕС</a></li>
+               <li><a href="#3">ИНВЕСТИЦИИ</a></li>
+               <li><a href="#4">СТРАХОВАНИЕ</a></li>
+               <li><a href="#5">МОБАЙЛ</a></li>
+               <li><a href="#6">ПУТЕШЕСТВИЯ</a></li>
+               <li><a href="#7">РАЗВЛЕЧЕНИЯ</a></li>
+            </ul>
+            <a href="api.html"class="btn">ВОЙТИ</a>
+        </nav>
+    </div>
+
+    <!-- CONVERTOR -->
+    <div class="container2" >
+     
+        <h2 >Конвертер валют онлайн</h2>
+        <div class="containers">
+            <!-- FROM -->
+            <div class="container3">
+                <p class="yazi">У меня есть </p>
+                <div class="selection">
+                  <input id="RUB1" type="radio" name="currency01" value="RUB">
+                  <label for="RUB1">RUB</label>
+                  <input id="USD1" type="radio" name="currency01" value="USD">
+                  <label for="USD1">USD</label>
+                  <input id="EUR1" type="radio" name="currency01" value="EUR" checked>
+                  <label for="EUR1">EUR</label>
+                  <input id="GBP1" type="radio" name="currency01" value="GBP">
+                  <label for="GBP1">GBP</label>
+                </div>
+            <div> <input type="text" id="number_from" value="1" autocomplete="off" placeholder="Enter Amount">
+                <p class="paragraph_from"></p>
+            </div> 
+                
+            </div>
+            <!-- TO -->
+            <div class="container4">
+                <p class="yazi">Хочу приобрести</p>
+                <div class="selection">
+                  <input id="RUB2" type="radio" name="currency02" value="RUB">
+                  <label for="RUB2">RUB</label>
+                  <input id="USD2" type="radio" name="currency02" value="USD" checked>
+                  <label for="USD2">USD</label>
+                  <input id="EUR2" type="radio" name="currency02" value="EUR">
+                  <label for="EUR2">EUR</label>
+                  <input id="GBP2" type="radio" name="currency02" value="GBP">
+                  <label for="GBP2">GBP</label>
+                </div>
+                <div> 
+                    <input type="text" id="number_to" value="1.03" autocomplete="off" placeholder="Enter Amount">
+                    <p class="paragraph_to"></p>
+                </div> 
+                
+            <div>
+        </div>
+    </div>
+        <script src="api.js"></script>
+</body>

@@ -1,0 +1,129 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+a {
+text-decoration: none;
+color:#959BA4;
+}
+
+html {
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+}
+h1{
+   color: #833AE0;
+   padding-left: 10%;
+   font-size: 2rem;
+}
+  input{
+    margin: 10px -1px;
+    color: white;
+  }
+  input[type="radio"]:checked + label{
+    background-color: #833AE0;
+    color: white;
+}
+  input[type="radio"]{
+    appearance: none;
+  }
+.none{
+    display: block !important;
+  }
+#navbar {
+    background-color: #F5F5F6;
+    color: #fff;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    height: 70px;
+}
+#navbar ul{
+    list-style-type: none;
+    display: flex;
+    align-items: center;
+}
+
+#navbar ul li a {
+    padding: 1rem;
+}
+#navbar ul li a:hover {
+    color: black;
+    border-radius: 4px;
+}
+.btn{
+    color: black;
+    background-color: #fff;
+    padding: 0.8%;
+    margin-right: 10%;
+    border: 0;
+    font-weight: 700;
+}
+.container2 {
+    color: black;
+    padding: 1rem;
+    width: 60%;
+    margin: 3% 20%;
+    align-content: center;
+}
+.container2 h2{
+   font-size: 2.7rem;
+   margin-bottom: 2rem;
+}
+.container2 .containers {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.container3 {
+    margin-right: 25%;
+}
+.container2 .containers .container3 .container4 {
+    width: 40%;
+    text-align: start;
+    padding: 0.5rem;
+}
+.container2 .containers .container3 .container4 p{
+    color: #9F9F9F;
+    size: 0.8rem;
+}
+.container2 .selection {
+    margin-top: 1rem;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+
+}
+
+
+.container2 .selection label {
+    border: 1px solid #E5E5E5;
+    color: #959BA4;
+    width: 40%;
+    text-align: center;
+    padding: 0.5rem;
+}
+.container2 .selection label:hover {
+    background-color: #833AE0;
+    color: #fff;
+}
+#number_from{
+    margin-top: 1rem;
+    height: 8rem;
+    width: 100%;
+    border: 1px solid #E5E5E5;
+    font-size: 2rem;
+    color: black;
+    padding: 1rem;
+    display: flex;
+}
+#number_to{
+    margin-top: 1rem;
+    height: 8rem;
+    width: 100%;
+    border: 1px solid #E5E5E5;
+    font-size: 2rem;
+    color: black;
+    padding: 1rem;
+    display: flex;
+}
